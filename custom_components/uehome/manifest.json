@@ -7,7 +7,7 @@
   "config_flow": true,
   "documentation": "https://github.com/ytc214800722/UeHome-Floor-Heating-Hass",
   "iot_class": "local_push",
+  "issue_tracker": "https://github.com/ytc214800722/UeHome-Floor-Heating-Hass/issues",
   "requirements": [],
-  "version": "1.0.0",
-  "issue_tracker": "https://github.com/ytc214800722/UeHome-Floor-Heating-Hass/issues"
+  "version": "1.0.0"
 }
