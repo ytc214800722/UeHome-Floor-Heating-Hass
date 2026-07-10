@@ -1,10 +1,13 @@
 {
   "domain": "uehome",
   "name": "UeHome Floor Heating",
-  "codeowners": [],
+  "codeowners": [
+    "@ytc214800722"
+  ],
   "config_flow": true,
-  "documentation": "https://github.com/custom-components/uehome",
+  "documentation": "https://github.com/ytc214800722/UeHome-Floor-Heating-Hass",
   "iot_class": "local_push",
   "requirements": [],
-  "version": "0.1.0"
+  "version": "1.0.0",
+  "issue_tracker": "https://github.com/ytc214800722/UeHome-Floor-Heating-Hass/issues"
 }

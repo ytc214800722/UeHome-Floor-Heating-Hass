@@ -51,6 +51,23 @@ Set target temperature:
 
 ## Installation
 
+### HACS
+
+1. In HACS, open **Custom repositories**.
+2. Add this repository URL:
+
+```text
+https://github.com/ytc214800722/UeHome-Floor-Heating-Hass
+```
+
+3. Select **Integration** as the category.
+4. Install **UeHome Floor Heating** from HACS.
+5. Restart Home Assistant.
+6. Go to **Settings > Devices & services > Add integration**.
+7. Search for **UeHome Floor Heating**.
+
+### Manual
+
 1. Copy this folder into your Home Assistant config directory:
 
 ```text
@@ -65,6 +82,8 @@ config/
   custom_components/
     uehome/
       __init__.py
+      brand/
+        icon.png
       climate.py
       config_flow.py
       const.py
