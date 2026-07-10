@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "UeHome Floor Heating",
+        "description": "Scan for UeHome UDP state broadcasts. Devices already added will not be shown again.",
+        "data": {
+          "port": "UDP port"
+        }
+      },
+      "select": {
+        "title": "Choose UeHome devices",
+        "description": "Select the thermostats to add. Unknown devices broadcasting on the same UDP port can be left unchecked.",
+        "data": {
+          "devices": "Devices"
+        }
+      },
+      "passwords": {
+        "title": "Enter device passwords",
+        "description": "Enter the password for each selected thermostat: {discovered_devices}",
+        "data": {
+          "password": "Device password"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "UeHome Floor Heating is already configured.",
+      "devices_added": "Selected devices were added to the existing UeHome Floor Heating integration."
+    },
+    "error": {
+      "cannot_listen": "Could not listen for UDP broadcasts on this port.",
+      "no_new_devices": "No new unconfigured UeHome devices were discovered.",
+      "no_devices_selected": "Select at least one device.",
+      "password_required": "A password is required for every selected device."
+    }
+  }
+}
