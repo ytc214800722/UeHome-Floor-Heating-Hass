@@ -1,5 +1,7 @@
 # UeHome Floor Heating for Home Assistant
 
+<img src="custom_components/uehome/brand/icon.png" alt="UeHome Floor Heating" width="128">
+
 Home Assistant custom integration for UeHome / 优e家 floor-heating thermostats.
 
 This integration listens for local UDP state broadcasts on port `60002`, creates selected devices as Home Assistant `climate` entities, and controls only power state plus target temperature.
