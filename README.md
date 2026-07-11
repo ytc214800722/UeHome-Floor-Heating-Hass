@@ -1,6 +1,6 @@
 # UeHome Floor Heating for Home Assistant
 
-<img src="brands/uehome.png" alt="UeHome Floor Heating" width="128">
+<img src="custom_components/uehome/brand/icon.png" alt="UeHome Floor Heating" width="128">
 
 Home Assistant custom integration for UeHome / 优e家 floor-heating thermostats.
 
@@ -86,6 +86,9 @@ config/
       __init__.py
       brand/
         icon.png
+        icon@2x.png
+        logo.png
+        logo@2x.png
       climate.py
       config_flow.py
       const.py
